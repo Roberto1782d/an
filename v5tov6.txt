@@ -1,0 +1,9 @@
+Changes from ether v5 to v6
+
+*.address -> *.target
+
+*.provider -> ethers.provider
+
+*.getContract(contract, deployer) --> *.getContractAt (contract, deploymentAddress, deployer)
+
+Big number can work with normal operation instead of mul, add, etc
